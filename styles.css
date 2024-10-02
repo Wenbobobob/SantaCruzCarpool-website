@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    
+}
+
+.goto-buttons{
+    font-size: medium;
+    cursor: pointer;
+    width: fit-content;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(227, 135, 37, 0.858);
+    transition: box-shadow 0.2s;
+}
+
+.goto-buttons:hover{
+    box-shadow: 3px 5px 2px black;
+}
+
+.goto-buttons:active{
+    opacity: 0.5;
+}
+
+.search-bar{
+    font-size: 20px;
+    display: block;
+}
