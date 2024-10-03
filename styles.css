@@ -1,17 +1,29 @@
 .title{
     text-align: center;
+    margin-bottom: 75px;
+    font-size: xx-large;
     
 }
 
+.background-color{
+    background-color: rgb(183, 218, 224);
+}
+
 .goto-buttons{
+    position: relative;
+    top: 50%;
     font-size: medium;
     cursor: pointer;
     width: fit-content;
     height: 45px;
     border: none;
     border-radius: 5px;
+    color: rgb(255, 248, 238);
     background-color: rgba(227, 135, 37, 0.858);
     transition: box-shadow 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .goto-buttons:hover{
@@ -25,4 +37,40 @@
 .search-bar{
     font-size: 20px;
     display: block;
+}
+
+.input-bar{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    border: 3px solid royalblue;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-divbox{
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.login-link{
+    margin-left: 20px;
+}
+
+.login-switch{
+    text-align: right;
+}
+
+.center-text{
+    text-align: center;
 }
